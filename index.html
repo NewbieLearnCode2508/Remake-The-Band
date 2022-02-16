@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-        <link rel="stylesheet" href="./asset/css/style.css">
         <link rel="stylesheet" href="./asset/css/responsive.css">
+        <link rel="stylesheet" href="./asset/css/style.css">
         <title>The Band</title>
     </head>
     <body>
@@ -43,13 +43,13 @@
             </div>
             <div id="content">
                 <div id="slider">
-                    <img src="https://www.w3schools.com/w3images/ny.jpg" alt="" class="slider-img">
+                    <img src="https://www.w3schools.com/w3images/la.jpg" alt="" class="slider-img">
                     <div class="slider-content">
                         <h3 class="slider-content-heading">Chicago</h3>
                         <p class="slider-sologan">We had the best time playing at Venice Beach!</p>
                     </div>
                 </div>
-                <div id="band">
+                <div id="band" class="grid wide">
                     <div class="container-section">
                         <div class="section">
                             <h2 class="heading-section">The Band</h2>
@@ -58,16 +58,16 @@
                         <div class="band-content">
                             <p class="band-paragraph">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         </div>
-                        <div class="band-members">
-                            <div class="band-member">
+                        <div class="band-members row">
+                            <div class="band-member col l-4 m-6 c-12">
                                 <h2 class="band-member-name">Name</h2>
                                 <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="band-avatar"></img>
                             </div>
-                            <div class="band-member">
+                            <div class="band-member col l-4 m-6 c-12">
                                 <h2 class="band-member-name">Name</h2>
                                 <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="band-avatar"></img>
                             </div>
-                            <div class="band-member">
+                            <div class="band-member col l-4 m-6 c-12">
                                 <h2 class="band-member-name">Name</h2>
                                 <img src="https://www.w3schools.com/w3images/bandmember.jpg" class="band-avatar"></img>
                             </div>
@@ -95,8 +95,8 @@
                                     <span class="sold-out">Sold out</span>
                                 </li>
                             </ul>
-                            <div class="tour-booking">
-                                <div class="tour-booking-item">
+                            <div class="tour-booking row">
+                                <div class="tour-booking-item col c-12 m-6 l-4">
                                     <img src="https://www.w3schools.com/w3images/newyork.jpg" alt="" class="booking-img">
                                     <div class="booking-infor">
                                         <h3 class="booking-heading">New York</h3>
@@ -105,7 +105,7 @@
                                         <button type="submit" class="booking-buy-btn">Buy Tickets</button>
                                     </div>
                                 </div>
-                                <div class="tour-booking-item">
+                                <div class="tour-booking-item col c-12 m-6 l-4">
                                     <img src="https://www.w3schools.com/w3images/paris.jpg" alt="" class="booking-img">
                                     <div class="booking-infor">
                                         <h3 class="booking-heading">Paris</h3>
@@ -114,7 +114,7 @@
                                         <button type="submit" class="booking-buy-btn">Buy Tickets</button>
                                     </div>
                                 </div>
-                                <div class="tour-booking-item">
+                                <div class="tour-booking-item col c-12 m-6 l-4">
                                     <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="" class="booking-img">
                                     <div class="booking-infor">
                                         <h3 class="booking-heading">San Francisco</h3>
@@ -133,8 +133,8 @@
                             <h2 class="heading-section">Contact</h2>
                             <p class="sologan-section">Fan? Drop a note!</p>
                         </div>
-                        <div class="contact-warp">
-                            <div class="contact-info">
+                        <div class="contact-warp row">
+                            <div class="contact-info col c-12 m-6 l-6">
                                 <span class="contact-social">
                                     <i class="fas fa-map-marker-alt"></i>
                                     <a href="https://www.google.com/maps/place/Chung+c%C6%B0+T%C3%A2n+Mai/@10.7628442,106.5887563,17z/data=!3m1!4b1!4m5!3m4!1s0x31752c5a875d54cb:0x82fcddf6b6084002!8m2!3d10.7628389!4d106.590945?hl=vi-VN">Chung cư Tân Mai</a>
@@ -149,15 +149,15 @@
                                     <a href="mailto:trantiendat25082003@gmail.com"> trantiendat25082003@gmail.com</a>
                                 </span>
                             </div>
-                            <form class="contact-form">
-                                <div class="contact-form-item">
-                                    <input required type="text" placeholder="Name">
-                                    <input required type="email" placeholder="Email">
+                            <form class="contact-form col c-12 m-6 l-6">
+                                <div class="contact-form-item row">
+                                    <input required class="col c-12 m-6 l-6" type="text" placeholder="Name">
+                                    <input required class="col c-12 m-6 l-6" type="email" placeholder="Email">
                                 </div>
-                                <div class="contact-form-item">
-                                    <input required type="text" placeholder="Message" class="full-width mt-12px">
+                                <div class="contact-form-item row">
+                                    <input required class="col c-12 m-12 l-12" type="text" placeholder="Message" class="full-width mt-12px">
+                                    <button type="submit" class="col c-12 m-12 l-12 contact-submit">SEND</button>
                                 </div>
-                                <button type="submit" class="contact-submit">SEND</button>
                             </form>
                         </div>
                     </div>

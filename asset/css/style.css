@@ -150,6 +150,7 @@ button {
 #slider {
     width: 100%;
     position: relative;
+    user-select: none;
 }
 
 .slider-img {
@@ -217,7 +218,6 @@ button {
 }
 
 .band-members {
-    display: flex;
     padding: 32px 0;
 }
 
@@ -225,6 +225,7 @@ button {
     width: 33.33333%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-top: 14px;
 }
@@ -276,16 +277,17 @@ button {
 }
 
 .tour-booking {
-    margin-top: 32px;
     display: flex;
     margin-right: -8px;
     margin-left: -8px;
+    flex-wrap: wrap;
 }
 
 .tour-booking-item {
     width: 33.33333%;
     padding: 0 8px;
     border-radius: 6px;
+    margin-top: 32px;
 }
 
 .booking-img {
@@ -330,7 +332,6 @@ button {
 
 .contact-warp {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -350,7 +351,7 @@ button {
 }
 
 .contact-form .contact-form-item:last-child {
-    margin-top: 12px;
+    margin-top: 4px;
 }
 
 .contact-form-item {
